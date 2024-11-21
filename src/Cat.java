@@ -3,4 +3,9 @@ public class Cat extends Animal{
     void makeSound() {
         System.out.println("mooow");
     }
+
+    @Override
+    boolean eat(String foodType) {
+        return true;
+    }
 }
